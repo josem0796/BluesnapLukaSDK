@@ -1,0 +1,18 @@
+PODS:
+  - BluesnapSDK (1.4.3):
+    - BluesnapSDK/DataCollector (= 1.4.3)
+  - BluesnapSDK/DataCollector (1.4.3)
+
+DEPENDENCIES:
+  - BluesnapSDK (~> 1.4.3)
+
+SPEC REPOS:
+  trunk:
+    - BluesnapSDK
+
+SPEC CHECKSUMS:
+  BluesnapSDK: da4ecbe31e31315f2d6a9f4524783e05580e1e39
+
+PODFILE CHECKSUM: 99c9e14b0f3d35dc63eb8c6fabc0f9b74c7e6a7c
+
+COCOAPODS: 1.11.3

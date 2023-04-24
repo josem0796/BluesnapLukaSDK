@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E15FD0D48C5C1A59FEF8744614D0AA /* BSLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 489C374E7095F5A27E49C57FC0248170 /* BSLocalizable.strings */; };
+		0B574D22C302EB5A87BDC5544543C4F5 /* BlueSnapSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EEC5D5415163F3A2D7D5A3F2A25527 /* BlueSnapSDK.swift */; };
+		0EF1C2AE1E81BDEE7DE2796EF4143F49 /* BS3DSProcessResultRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EC6F67FBF39039839BF5B1BE1E772 /* BS3DSProcessResultRequest.swift */; };
+		112382F2ADDB436981BE125B3058C29D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC8C64F87DBD6B32B523D7E6134B54B /* Foundation.framework */; };
+		12E770EFA6C6FCC47AC64E22CAB1D5CA /* BSPKContactExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68904467E38307BCEB83CC4692EEB939 /* BSPKContactExtention.swift */; };
+		133E3342261DAFC75F5A94FB5DFF64DD /* BSSubtotalUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B1E6AB26C97BD9DBFD022973E6C87D /* BSSubtotalUIView.swift */; };
+		14D492958D06BCB18939C713461C411C /* BSApplePayPaymentTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A06E86A9EFE68E62196D5D86D586A4 /* BSApplePayPaymentTypeView.swift */; };
+		1B6E768FAD2E73CBA83BDF1262D7835F /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D23D288101C1B790BB877B5E575AC5B /* Contacts.framework */; };
+		1E956DBC3445DF476FEFD3C3F839B004 /* BSCurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6207D52D9DAFF6EBD7FC87E42EB416 /* BSCurrenciesViewController.swift */; };
+		2028E8C9BA2D1F087E0CFDEC00894C28 /* BSShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3904A227FFE8973DE7368F1C5F7B85D9 /* BSShippingViewController.swift */; };
+		2157ABE5E0B36C49E1C2C47A63514B0B /* BlueSnap.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69AB6B70D72F88A2C9DC600348F38B6D /* BlueSnap.storyboard */; };
+		21FD0B76DA657493170525B50345970C /* BSViewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC0A326256FF1AAD3EE93656CDCD1B7 /* BSViewsManager.swift */; };
+		27963EB04C6ED6EEBFA358BE6ECA2A18 /* BluesnapSDK-BluesnapUI in Resources */ = {isa = PBXBuildFile; fileRef = F7E8779431C4EF36579F06E5DF56E715 /* BluesnapSDK-BluesnapUI */; };
+		2A6ED378FCB888CA886ABA536E1B02FD /* BSToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD23F9998CE86E11EF60746DB93DEDFF /* BSToken.swift */; };
+		2B2C6F1F25536E29485DB972AAD44227 /* BSImageLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859809F9B785990B2AD50A301AB9DF43 /* BSImageLibrary.swift */; };
+		2C634A437765C9E969D8BCAAE637B79E /* BSStringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08991462DBBF133299C070C2B73C9FF /* BSStringUtils.swift */; };
+		2EC420896D8FB26C66F279E01BB50F46 /* BSApplepayPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B422EC22DE4D314DB5923DB590DC2A0F /* BSApplepayPayment.swift */; };
+		39F9F89EB860A947D9EA8E7B27DB7C32 /* BSInputLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A4524AC853B377C403E4872D4834B4 /* BSInputLine.swift */; };
+		425CEF128267B9B57B1A29A36190DFC0 /* BSLocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04018D829D30949EF1B35E8C0176EB46 /* BSLocalizedStrings.swift */; };
+		42AF0EF2488D6F4163307169DDE42DDD /* BSExistingCCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD97663404F5C238FEE2EC496E76B6 /* BSExistingCCViewController.swift */; };
+		4E6DA4BFEC54DCF62457F020EC4D11BA /* BSCcPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7161A8D2A26A75383426115BB203546 /* BSCcPayment.swift */; };
+		513E6D85D2E87DBDD2619217C409469A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 212C5CFB74131CE00E16B443190B1ABE /* Localizable.strings */; };
+		53761FE24F83E49BD09159B38B2DF161 /* BSBaseBoxWithShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37AB0E4B4477349C954F6E4152575BB /* BSBaseBoxWithShadowView.swift */; };
+		56F41435E0EF02669D87404586BCBF83 /* BSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9E91734A4F168B236CE27E8D08309 /* BSWebViewController.swift */; };
+		5DFBC09882E5CFFBD4EBF9436FA2CFB1 /* BS3DSAuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E169D7AF644BAD3AF9273D23728C09 /* BS3DSAuthResponse.swift */; };
+		61FC74C8B59457C93C4C8D3E44FCC27F /* BSApplepayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FC01EB6A28231ACD7F63C7755D5A9 /* BSApplepayViewController.swift */; };
+		62470680D6530154C3008EE827E2E32B /* BSStatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2824049EB590C80A959F982E50C6D7 /* BSStatesViewController.swift */; };
+		6721113C987FA1AFFC6366547DB0557B /* BSStateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E8E77E8DEE496E3D079E82618EC34 /* BSStateTableViewCell.swift */; };
+		69137EF36AA5A9563C603688AA9563AD /* BSStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145CBDE7DE285E8AE0636A871C8EDC2 /* BSStartViewController.swift */; };
+		6F4F0D5750A3DA5323F031DD0D00EC3C /* BSCurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959EE1E93ACC91A6C8584B686B7DA2B2 /* BSCurrencyTableViewCell.swift */; };
+		74CCE4F188DBE64351CE726113B00A71 /* Kount-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D34579EFA207C37C5D01E67F9CB41CF /* Kount-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD07A85F37BBDD6A1049BF62F3740AF /* BSExistingCcUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22419F167896928EC4D0E6801BBD3C9B /* BSExistingCcUIView.swift */; };
+		861D27578E012FBCAE1160FB1DB1E7E2 /* BSApplepayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29190B187C94330C09D5843D045E31E /* BSApplepayOperation.swift */; };
+		866F667D6BB763150480587BD16AB743 /* BSTokenizeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C581FB927EDCA8271A7E9CC5A0F82BA /* BSTokenizeRequest.swift */; };
+		8885423A661D53DEC5A594285AA6C2B2 /* KDataCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = BB74DF2185881FFF04020841F462067D /* KDataCollector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8892BF0B771BD1291C4B824E2C6305C3 /* BSAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883C698CB55FFE36A7571904534691EC /* BSAddress.swift */; };
+		890C8718BC4D36FE9FA8E71EAD036673 /* BSValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61D3B66724CA455CD6B41740ECE44C /* BSValidator.swift */; };
+		962A34AB6A2D1C4D94F03B62D26161F2 /* BluesnapSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0921CA04BA2DBE5C177C9C7C5D6D6ACD /* BluesnapSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E3FC06254357345B61445323E3CDE5 /* BSColorCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8533F65D7631CB3E7AC6474F47C77958 /* BSColorCompat.swift */; };
+		9E6712C4354FC9207E8452BA9E89983C /* BS3DSAuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F03B00B83C93D542DA82DCE9F0F876 /* BS3DSAuthRequest.swift */; };
+		A498721911E2C25BB6BEB6CFC7C7F1DB /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F112DB81E0B0DD3F4F47942C8543ABC /* AddressBook.framework */; };
+		A4FBCAB52890E8C2E02C63BC3313C93E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC8C64F87DBD6B32B523D7E6134B54B /* Foundation.framework */; };
+		A58DF526F41EB8E99B8E90F44947D2B5 /* BSCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54158E9EB226C29DD61813BCDC8E4821 /* BSCountryTableViewCell.swift */; };
+		A6441EFB6044B6D342BDC13FE6E568AC /* BSEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BA9A31469ABA4EA5F61036763BAE4 /* BSEnum.swift */; };
+		A8CCFE64420714CCCF1B8F05D089B7EB /* BSPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437673D2D3837AFBAD2473585C92B853 /* BSPaymentViewController.swift */; };
+		A940A2C7477CC6D36A5812FB539FD0FA /* Pods-BluesnapLukaSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6185EB816A106A16BD7E59DB171BFA68 /* Pods-BluesnapLukaSDK-dummy.m */; };
+		AA6128F7A2363FF6CF96D35B2E1B7039 /* BSApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEB1D590273F596B2195E3D7077CC8A /* BSApiCaller.swift */; };
+		B2FEDB6A4F493E308E4C3AD6E0E609B3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BB0305335BFE6BE6C662017081264D /* Media.xcassets */; };
+		B7DC71FC8C83FD4014CD05DFE5767506 /* BSCountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56213CCA73072C25A87C710C1094DCE6 /* BSCountryManager.swift */; };
+		B84736298624B3F0EEEC9FDE64CD9BE7 /* BSPaypalHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20547572B5974D89BC4E11AC11469EF5 /* BSPaypalHandler.swift */; };
+		B8A311D6098D28D8BF7121596460ECDA /* BSBaseTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB3423042FAA60FF566AA1AB077CE3 /* BSBaseTextInput.swift */; };
+		B917D5D825969ABCFF75FC29016B18C9 /* BluesnapSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA43EC979DC925C38F77C0B46189A49 /* BluesnapSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B985133A0039555F2B7DC89D8860AA5E /* BSCcInputLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653BC79A4318ABCC0D122846CCEA63 /* BSCcInputLine.swift */; };
+		BC3568E32127B16BCDD56302F4096629 /* BSPurchaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E308460B9CBD14FC2B573C05D909163A /* BSPurchaseDataModel.swift */; };
+		BD0A8E9C46EF000D474ED2CD69E07757 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B884D23645EFCBCFD6611FF026CADCB /* WebKit.framework */; };
+		C7E5B28778FD6A93EF9382F3AC444F2A /* BS3DSProcessResultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B70504DC603786BDA0415E4EB617E /* BS3DSProcessResultResponse.swift */; };
+		CA16F12BF2DE1FDE4BDC83055DED01F1 /* BSCurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F77B22710D420F2763601E608FDC6 /* BSCurrencyModel.swift */; };
+		CAE4AA65E44B890680A00D1154E8905B /* BSApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E891F82C9C28D100353C8CCB97F4E9F8 /* BSApiManager.swift */; };
+		CCB956F864D004C70991D0EEF72ABC8A /* BSSdkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F975106D24DED4A7026CDD2FFD8B8A5 /* BSSdkConfiguration.swift */; };
+		CF5717FAF90CE22206BF5C2F56FF3A76 /* BSBaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DED46420DED4F07594D713718495383 /* BSBaseListController.swift */; };
+		D920B25A21D7CE1A59F6B56FB64AB9D6 /* BluesnapSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA93B30A4735C6A07440821F722A691 /* BluesnapSDK-dummy.m */; };
+		E53B0BBCC57FBF857FBE4EE4297DE876 /* BSCardinalToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB8EC19DD044C03CD8A1B03FCAF9ED6 /* BSCardinalToken.swift */; };
+		E6EE6716A3BAD7D94E71606696E7FC7F /* BSCreatePaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EDC0382DA0039C1011C8629B8CC7BD /* BSCreatePaymentViewController.swift */; };
+		E760FD7D26DD0801B946B3DC4EB4C84F /* BSPayPalPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5A9DE5EC5EEB77F533561941BDC7FA /* BSPayPalPayment.swift */; };
+		E85C7E93B3CF92418416BA9DA3399C70 /* BSCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E0755E876A4051EDEB9141227D7DD /* BSCountryViewController.swift */; };
+		E92EC83E20F6956FAF5700A0FCD57171 /* Pods-BluesnapLukaSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17263F29331F29CEA17980617E0604F1 /* Pods-BluesnapLukaSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB4A6DF64B07DF65718ACDF66564DA24 /* BSPaymentTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33276D68CF47E9BBDC4BC08E8A66B96 /* BSPaymentTypeView.swift */; };
+		ED27EF74DD8251302E8BA595585D0A33 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514B8A09253E7AB8F474174A59FD140 /* Security.framework */; };
+		F65F85052B7556EF6D065937BE5AA705 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6E6C5DD1A85839A206BEA271C342A9 /* UIKit.framework */; };
+		FAF92EFA756CCC33D113EDB5B83BCBBF /* BSCardinalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE42157C011780DDCC9EC9F9DAE58EC /* BSCardinalManager.swift */; };
+		FB5070B15DC35332E0AACFCD45FE89B6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BB0305335BFE6BE6C662017081264D /* Media.xcassets */; };
+		FE14B22871801FBD47100BFB19CE6CFC /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3E82BE5E32670B47B39D9C5382B672 /* PassKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		434F09E8C07360881E2B838E47A54261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7B53B36FFB815FF881555A2EDCD614;
+			remoteInfo = BluesnapSDK;
+		};
+		DC8276AD9CC45CB75C0A6E3B9CBB9BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F777062A1140A6E1570D564F40E7649;
+			remoteInfo = "BluesnapSDK-BluesnapUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04018D829D30949EF1B35E8C0176EB46 /* BSLocalizedStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSLocalizedStrings.swift; path = BluesnapSDK/BSLocalizedStrings.swift; sourceTree = "<group>"; };
+		0921CA04BA2DBE5C177C9C7C5D6D6ACD /* BluesnapSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BluesnapSDK-umbrella.h"; sourceTree = "<group>"; };
+		0A6EC6F67FBF39039839BF5B1BE1E772 /* BS3DSProcessResultRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BS3DSProcessResultRequest.swift; path = BluesnapSDK/BS3DSProcessResultRequest.swift; sourceTree = "<group>"; };
+		0D0495CE0A7EB4E4282F773D0F54BC2C /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = sv.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		0F2824049EB590C80A959F982E50C6D7 /* BSStatesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSStatesViewController.swift; path = BluesnapSDK/BSStatesViewController.swift; sourceTree = "<group>"; };
+		100A4AF967E87591824D02BDC5B385BE /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = cs.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		10653BC79A4318ABCC0D122846CCEA63 /* BSCcInputLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCcInputLine.swift; path = BluesnapSDK/BSCcInputLine.swift; sourceTree = "<group>"; };
+		118F77B22710D420F2763601E608FDC6 /* BSCurrencyModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCurrencyModel.swift; path = BluesnapSDK/BSCurrencyModel.swift; sourceTree = "<group>"; };
+		12A4524AC853B377C403E4872D4834B4 /* BSInputLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSInputLine.swift; path = BluesnapSDK/BSInputLine.swift; sourceTree = "<group>"; };
+		12FC1BC38CD71D72E424E9D9B50DE562 /* BluesnapSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BluesnapSDK; path = BluesnapSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17263F29331F29CEA17980617E0604F1 /* Pods-BluesnapLukaSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BluesnapLukaSDK-umbrella.h"; sourceTree = "<group>"; };
+		182EAB5857C6DA5E209A0F235A78EF24 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = ko.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		1C3E82BE5E32670B47B39D9C5382B672 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/PassKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D34579EFA207C37C5D01E67F9CB41CF /* Kount-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Kount-Bridging-Header.h"; path = "BluesnapSDK/Kount-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F438EC21EF9BAE1E733DC343531713F /* Pods-BluesnapLukaSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BluesnapLukaSDK.modulemap"; sourceTree = "<group>"; };
+		20081C87FCFC12F5D671B94173DB9E6C /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = ja.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		20547572B5974D89BC4E11AC11469EF5 /* BSPaypalHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSPaypalHandler.swift; path = BluesnapSDK/BSPaypalHandler.swift; sourceTree = "<group>"; };
+		213943017DD835670AC41746034ED1E0 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = Base.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		22419F167896928EC4D0E6801BBD3C9B /* BSExistingCcUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSExistingCcUIView.swift; path = BluesnapSDK/BSExistingCcUIView.swift; sourceTree = "<group>"; };
+		2498AAE258240068463762F1708FF208 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = hu.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		24E3FC4DA70CCCBE23204DB9002EBDE4 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = "pt-PT.lproj/BSLocalizable.strings"; sourceTree = "<group>"; };
+		2A6207D52D9DAFF6EBD7FC87E42EB416 /* BSCurrenciesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCurrenciesViewController.swift; path = BluesnapSDK/BSCurrenciesViewController.swift; sourceTree = "<group>"; };
+		2C581FB927EDCA8271A7E9CC5A0F82BA /* BSTokenizeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSTokenizeRequest.swift; path = BluesnapSDK/BSTokenizeRequest.swift; sourceTree = "<group>"; };
+		2EA43EC979DC925C38F77C0B46189A49 /* BluesnapSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BluesnapSDK.h; path = BluesnapSDK/BluesnapSDK.h; sourceTree = "<group>"; };
+		337851A10055304CEDB50872FE430C7C /* BluesnapSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BluesnapSDK.modulemap; sourceTree = "<group>"; };
+		339836308EF76D83D52461A0A5F647F8 /* BluesnapSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BluesnapSDK-Info.plist"; sourceTree = "<group>"; };
+		33EB3423042FAA60FF566AA1AB077CE3 /* BSBaseTextInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSBaseTextInput.swift; path = BluesnapSDK/BSBaseTextInput.swift; sourceTree = "<group>"; };
+		3514B8A09253E7AB8F474174A59FD140 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		35D9E91734A4F168B236CE27E8D08309 /* BSWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSWebViewController.swift; path = BluesnapSDK/BSWebViewController.swift; sourceTree = "<group>"; };
+		3904A227FFE8973DE7368F1C5F7B85D9 /* BSShippingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSShippingViewController.swift; path = BluesnapSDK/BSShippingViewController.swift; sourceTree = "<group>"; };
+		3EE2076D4302CF773A4A3ACE5E6CA439 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = en.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		3F975106D24DED4A7026CDD2FFD8B8A5 /* BSSdkConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSSdkConfiguration.swift; path = BluesnapSDK/BSSdkConfiguration.swift; sourceTree = "<group>"; };
+		41E169D7AF644BAD3AF9273D23728C09 /* BS3DSAuthResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BS3DSAuthResponse.swift; path = BluesnapSDK/BS3DSAuthResponse.swift; sourceTree = "<group>"; };
+		437673D2D3837AFBAD2473585C92B853 /* BSPaymentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSPaymentViewController.swift; path = BluesnapSDK/BSPaymentViewController.swift; sourceTree = "<group>"; };
+		464AD3521865F963BC40A12CE908AF42 /* libKountDataCollector.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKountDataCollector.a; path = BluesnapSDK/libKountDataCollector.a; sourceTree = "<group>"; };
+		4869F3E57F51C0BA81938D7BF6A3FD72 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = es.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		48EEC5D5415163F3A2D7D5A3F2A25527 /* BlueSnapSDK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlueSnapSDK.swift; path = BluesnapSDK/BlueSnapSDK.swift; sourceTree = "<group>"; };
+		4D32029AE6345658F79B71B1D91EF846 /* ResourceBundle-BluesnapUI-BluesnapSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BluesnapUI-BluesnapSDK-Info.plist"; sourceTree = "<group>"; };
+		4F112DB81E0B0DD3F4F47942C8543ABC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		509FC01EB6A28231ACD7F63C7755D5A9 /* BSApplepayViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSApplepayViewController.swift; path = BluesnapSDK/BSApplepayViewController.swift; sourceTree = "<group>"; };
+		54158E9EB226C29DD61813BCDC8E4821 /* BSCountryTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryTableViewCell.swift; path = BluesnapSDK/BSCountryTableViewCell.swift; sourceTree = "<group>"; };
+		56213CCA73072C25A87C710C1094DCE6 /* BSCountryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryManager.swift; path = BluesnapSDK/BSCountryManager.swift; sourceTree = "<group>"; };
+		59AC95CED38FA1D108A49A9D3BC04A65 /* BluesnapSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BluesnapSDK.release.xcconfig; sourceTree = "<group>"; };
+		5B884D23645EFCBCFD6611FF026CADCB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C5A9DE5EC5EEB77F533561941BDC7FA /* BSPayPalPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSPayPalPayment.swift; path = BluesnapSDK/BSPayPalPayment.swift; sourceTree = "<group>"; };
+		5D23D288101C1B790BB877B5E575AC5B /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		616A9FAFA83DBEF6F4BAC2A967C14F7A /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = "zh-Hans.lproj/BSLocalizable.strings"; sourceTree = "<group>"; };
+		6185EB816A106A16BD7E59DB171BFA68 /* Pods-BluesnapLukaSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BluesnapLukaSDK-dummy.m"; sourceTree = "<group>"; };
+		6438667B38B6AD67EBFFFA0DF96211F0 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = ru.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		68904467E38307BCEB83CC4692EEB939 /* BSPKContactExtention.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSPKContactExtention.swift; path = BluesnapSDK/BSPKContactExtention.swift; sourceTree = "<group>"; };
+		6E0E8E77E8DEE496E3D079E82618EC34 /* BSStateTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSStateTableViewCell.swift; path = BluesnapSDK/BSStateTableViewCell.swift; sourceTree = "<group>"; };
+		6ECBD531F29FFBB985AC38662A485B20 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = fr.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		722E0755E876A4051EDEB9141227D7DD /* BSCountryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCountryViewController.swift; path = BluesnapSDK/BSCountryViewController.swift; sourceTree = "<group>"; };
+		736FEB466BDC9D9B34276680B8822A31 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = fi.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		7ADE245541197C092592F94C40025C3D /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = de.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		7C4F6427AC03705BE0070E28D151C77E /* BlueSnap.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BlueSnap.strings; path = en.lproj/BlueSnap.strings; sourceTree = "<group>"; };
+		7F328F7EECDF40F74D4D5DDAFF2DB4D9 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = sk.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		8533F65D7631CB3E7AC6474F47C77958 /* BSColorCompat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSColorCompat.swift; path = BluesnapSDK/BSColorCompat.swift; sourceTree = "<group>"; };
+		859809F9B785990B2AD50A301AB9DF43 /* BSImageLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSImageLibrary.swift; path = BluesnapSDK/BSImageLibrary.swift; sourceTree = "<group>"; };
+		883C698CB55FFE36A7571904534691EC /* BSAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSAddress.swift; path = BluesnapSDK/BSAddress.swift; sourceTree = "<group>"; };
+		88AEC1B715A53680025703ECBCB4A9B6 /* Pods-BluesnapLukaSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluesnapLukaSDK.release.xcconfig"; sourceTree = "<group>"; };
+		88BB0305335BFE6BE6C662017081264D /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = BluesnapSDK/Media.xcassets; sourceTree = "<group>"; };
+		8DED46420DED4F07594D713718495383 /* BSBaseListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSBaseListController.swift; path = BluesnapSDK/BSBaseListController.swift; sourceTree = "<group>"; };
+		92B1E6AB26C97BD9DBFD022973E6C87D /* BSSubtotalUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSSubtotalUIView.swift; path = BluesnapSDK/BSSubtotalUIView.swift; sourceTree = "<group>"; };
+		959EE1E93ACC91A6C8584B686B7DA2B2 /* BSCurrencyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCurrencyTableViewCell.swift; path = BluesnapSDK/BSCurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		9BBA06A53ECDB7C1DD93110FAE082EF5 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = sq.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		9CEB1D590273F596B2195E3D7077CC8A /* BSApiCaller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSApiCaller.swift; path = BluesnapSDK/BSApiCaller.swift; sourceTree = "<group>"; };
+		9D3BF53EB806CA6F098AF667DCCAA6D2 /* BluesnapSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BluesnapSDK-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC049B93571272BD285C5381B1C5CDF /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = nl.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		9FE42157C011780DDCC9EC9F9DAE58EC /* BSCardinalManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCardinalManager.swift; path = BluesnapSDK/BSCardinalManager.swift; sourceTree = "<group>"; };
+		A658558E69A817878E89115D091E6C86 /* Pods-BluesnapLukaSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BluesnapLukaSDK-frameworks.sh"; sourceTree = "<group>"; };
+		AAA398C73AC0225F08824B7D9D90437F /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = lt.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		ACFFE5488F4114B98CACB993E5A89C5E /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = sr.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		ADA9AF4959260724BA6DB2074B5544A3 /* BlueSnap.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = BlueSnap.storyboard; path = Base.lproj/BlueSnap.storyboard; sourceTree = "<group>"; };
+		AE6E6C5DD1A85839A206BEA271C342A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B422EC22DE4D314DB5923DB590DC2A0F /* BSApplepayPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSApplepayPayment.swift; path = BluesnapSDK/BSApplepayPayment.swift; sourceTree = "<group>"; };
+		B6B2D35EC02F5CF1C3FC9D21A5F4D34D /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = nb.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		B8F03B00B83C93D542DA82DCE9F0F876 /* BS3DSAuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BS3DSAuthRequest.swift; path = BluesnapSDK/BS3DSAuthRequest.swift; sourceTree = "<group>"; };
+		BB74DF2185881FFF04020841F462067D /* KDataCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KDataCollector.h; path = BluesnapSDK/KDataCollector.h; sourceTree = "<group>"; };
+		BD23F9998CE86E11EF60746DB93DEDFF /* BSToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSToken.swift; path = BluesnapSDK/BSToken.swift; sourceTree = "<group>"; };
+		BDC0A326256FF1AAD3EE93656CDCD1B7 /* BSViewsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSViewsManager.swift; path = BluesnapSDK/BSViewsManager.swift; sourceTree = "<group>"; };
+		BDD97BBD4AD0E7A531364FC2987F265B /* Pods-BluesnapLukaSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluesnapLukaSDK-Info.plist"; sourceTree = "<group>"; };
+		BEA93B30A4735C6A07440821F722A691 /* BluesnapSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BluesnapSDK-dummy.m"; sourceTree = "<group>"; };
+		BFCD97663404F5C238FEE2EC496E76B6 /* BSExistingCCViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSExistingCCViewController.swift; path = BluesnapSDK/BSExistingCCViewController.swift; sourceTree = "<group>"; };
+		C145CBDE7DE285E8AE0636A871C8EDC2 /* BSStartViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSStartViewController.swift; path = BluesnapSDK/BSStartViewController.swift; sourceTree = "<group>"; };
+		C36B40629CCE40460C880C86D1C680B1 /* BluesnapSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BluesnapSDK.debug.xcconfig; sourceTree = "<group>"; };
+		C51BA9A31469ABA4EA5F61036763BAE4 /* BSEnum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSEnum.swift; path = BluesnapSDK/BSEnum.swift; sourceTree = "<group>"; };
+		C69FF2B572BD56E89DAF92781CAE8429 /* CardinalMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CardinalMobile.framework; path = BluesnapSDK/CardinalMobile.framework; sourceTree = "<group>"; };
+		C8C648163E8E6D4079618C9238A99B86 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = pl.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		CDC8C64F87DBD6B32B523D7E6134B54B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEB8EC19DD044C03CD8A1B03FCAF9ED6 /* BSCardinalToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCardinalToken.swift; path = BluesnapSDK/BSCardinalToken.swift; sourceTree = "<group>"; };
+		D06C8D04BC3D9031B9FD727D31E68747 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D0DC57F36955A1FD2AF41A15E64F7B91 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = it.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		D0F5F60E579CAFA29671F6686C10908B /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = bg.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+		D29190B187C94330C09D5843D045E31E /* BSApplepayOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSApplepayOperation.swift; path = BluesnapSDK/BSApplepayOperation.swift; sourceTree = "<group>"; };
+		D33276D68CF47E9BBDC4BC08E8A66B96 /* BSPaymentTypeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSPaymentTypeView.swift; path = BluesnapSDK/BSPaymentTypeView.swift; sourceTree = "<group>"; };
+		D37AB0E4B4477349C954F6E4152575BB /* BSBaseBoxWithShadowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSBaseBoxWithShadowView.swift; path = BluesnapSDK/BSBaseBoxWithShadowView.swift; sourceTree = "<group>"; };
+		D98B70504DC603786BDA0415E4EB617E /* BS3DSProcessResultResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BS3DSProcessResultResponse.swift; path = BluesnapSDK/BS3DSProcessResultResponse.swift; sourceTree = "<group>"; };
+		DE61D3B66724CA455CD6B41740ECE44C /* BSValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSValidator.swift; path = BluesnapSDK/BSValidator.swift; sourceTree = "<group>"; };
+		E08991462DBBF133299C070C2B73C9FF /* BSStringUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSStringUtils.swift; path = BluesnapSDK/BSStringUtils.swift; sourceTree = "<group>"; };
+		E308460B9CBD14FC2B573C05D909163A /* BSPurchaseDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSPurchaseDataModel.swift; path = BluesnapSDK/BSPurchaseDataModel.swift; sourceTree = "<group>"; };
+		E7161A8D2A26A75383426115BB203546 /* BSCcPayment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCcPayment.swift; path = BluesnapSDK/BSCcPayment.swift; sourceTree = "<group>"; };
+		E891F82C9C28D100353C8CCB97F4E9F8 /* BSApiManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSApiManager.swift; path = BluesnapSDK/BSApiManager.swift; sourceTree = "<group>"; };
+		F207A740D5355C2A17CEE1839E04A370 /* Pods-BluesnapLukaSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BluesnapLukaSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F21523271E49EC6E01146E52B9335EE2 /* Pods-BluesnapLukaSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BluesnapLukaSDK"; path = Pods_BluesnapLukaSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30316071DA27EA2A2C8F5672EB619D8 /* Pods-BluesnapLukaSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BluesnapLukaSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		F40A8EEA5690E34BAED002D938FDFB8C /* Pods-BluesnapLukaSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BluesnapLukaSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4AF3C6CE4AAA339D53C2FFEA7502AD9 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = "da-DK.lproj/BSLocalizable.strings"; sourceTree = "<group>"; };
+		F7A06E86A9EFE68E62196D5D86D586A4 /* BSApplePayPaymentTypeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSApplePayPaymentTypeView.swift; path = BluesnapSDK/BSApplePayPaymentTypeView.swift; sourceTree = "<group>"; };
+		F7E8779431C4EF36579F06E5DF56E715 /* BluesnapSDK-BluesnapUI */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BluesnapSDK-BluesnapUI"; path = BluesnapUI.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EDC0382DA0039C1011C8629B8CC7BD /* BSCreatePaymentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BSCreatePaymentViewController.swift; path = BluesnapSDK/BSCreatePaymentViewController.swift; sourceTree = "<group>"; };
+		F8EF6C7BC51904E9403C4EAC891CE2A5 /* BSLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = BSLocalizable.strings; path = tr.lproj/BSLocalizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C8DFC71D54026AE2142418A2B4DA2C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A498721911E2C25BB6BEB6CFC7C7F1DB /* AddressBook.framework in Frameworks */,
+				1B6E768FAD2E73CBA83BDF1262D7835F /* Contacts.framework in Frameworks */,
+				A4FBCAB52890E8C2E02C63BC3313C93E /* Foundation.framework in Frameworks */,
+				FE14B22871801FBD47100BFB19CE6CFC /* PassKit.framework in Frameworks */,
+				ED27EF74DD8251302E8BA595585D0A33 /* Security.framework in Frameworks */,
+				F65F85052B7556EF6D065937BE5AA705 /* UIKit.framework in Frameworks */,
+				BD0A8E9C46EF000D474ED2CD69E07757 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7E98F2CA552F46494D924D0376AEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112382F2ADDB436981BE125B3058C29D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E5D70B76CDA717B0C67FE8049418B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B145139E1BE68B5E5DB33D576C5AF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E4068535657335AD660472BF13035B /* Pods-BluesnapLukaSDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36F5F43E6EB4F1341DD0607D6118030F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C69FF2B572BD56E89DAF92781CAE8429 /* CardinalMobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3713D88C783D079EA748BDEBB2C96567 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CE604C47A604143C14EC893FC303B2F /* BluesnapSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51E4068535657335AD660472BF13035B /* Pods-BluesnapLukaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1F438EC21EF9BAE1E733DC343531713F /* Pods-BluesnapLukaSDK.modulemap */,
+				F40A8EEA5690E34BAED002D938FDFB8C /* Pods-BluesnapLukaSDK-acknowledgements.markdown */,
+				F30316071DA27EA2A2C8F5672EB619D8 /* Pods-BluesnapLukaSDK-acknowledgements.plist */,
+				6185EB816A106A16BD7E59DB171BFA68 /* Pods-BluesnapLukaSDK-dummy.m */,
+				A658558E69A817878E89115D091E6C86 /* Pods-BluesnapLukaSDK-frameworks.sh */,
+				BDD97BBD4AD0E7A531364FC2987F265B /* Pods-BluesnapLukaSDK-Info.plist */,
+				17263F29331F29CEA17980617E0604F1 /* Pods-BluesnapLukaSDK-umbrella.h */,
+				F207A740D5355C2A17CEE1839E04A370 /* Pods-BluesnapLukaSDK.debug.xcconfig */,
+				88AEC1B715A53680025703ECBCB4A9B6 /* Pods-BluesnapLukaSDK.release.xcconfig */,
+			);
+			name = "Pods-BluesnapLukaSDK";
+			path = "Target Support Files/Pods-BluesnapLukaSDK";
+			sourceTree = "<group>";
+		};
+		6CE604C47A604143C14EC893FC303B2F /* BluesnapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2EA43EC979DC925C38F77C0B46189A49 /* BluesnapSDK.h */,
+				48EEC5D5415163F3A2D7D5A3F2A25527 /* BlueSnapSDK.swift */,
+				B8F03B00B83C93D542DA82DCE9F0F876 /* BS3DSAuthRequest.swift */,
+				41E169D7AF644BAD3AF9273D23728C09 /* BS3DSAuthResponse.swift */,
+				0A6EC6F67FBF39039839BF5B1BE1E772 /* BS3DSProcessResultRequest.swift */,
+				D98B70504DC603786BDA0415E4EB617E /* BS3DSProcessResultResponse.swift */,
+				883C698CB55FFE36A7571904534691EC /* BSAddress.swift */,
+				9CEB1D590273F596B2195E3D7077CC8A /* BSApiCaller.swift */,
+				E891F82C9C28D100353C8CCB97F4E9F8 /* BSApiManager.swift */,
+				D29190B187C94330C09D5843D045E31E /* BSApplepayOperation.swift */,
+				B422EC22DE4D314DB5923DB590DC2A0F /* BSApplepayPayment.swift */,
+				F7A06E86A9EFE68E62196D5D86D586A4 /* BSApplePayPaymentTypeView.swift */,
+				509FC01EB6A28231ACD7F63C7755D5A9 /* BSApplepayViewController.swift */,
+				D37AB0E4B4477349C954F6E4152575BB /* BSBaseBoxWithShadowView.swift */,
+				8DED46420DED4F07594D713718495383 /* BSBaseListController.swift */,
+				33EB3423042FAA60FF566AA1AB077CE3 /* BSBaseTextInput.swift */,
+				9FE42157C011780DDCC9EC9F9DAE58EC /* BSCardinalManager.swift */,
+				CEB8EC19DD044C03CD8A1B03FCAF9ED6 /* BSCardinalToken.swift */,
+				10653BC79A4318ABCC0D122846CCEA63 /* BSCcInputLine.swift */,
+				E7161A8D2A26A75383426115BB203546 /* BSCcPayment.swift */,
+				8533F65D7631CB3E7AC6474F47C77958 /* BSColorCompat.swift */,
+				56213CCA73072C25A87C710C1094DCE6 /* BSCountryManager.swift */,
+				54158E9EB226C29DD61813BCDC8E4821 /* BSCountryTableViewCell.swift */,
+				722E0755E876A4051EDEB9141227D7DD /* BSCountryViewController.swift */,
+				F8EDC0382DA0039C1011C8629B8CC7BD /* BSCreatePaymentViewController.swift */,
+				2A6207D52D9DAFF6EBD7FC87E42EB416 /* BSCurrenciesViewController.swift */,
+				118F77B22710D420F2763601E608FDC6 /* BSCurrencyModel.swift */,
+				959EE1E93ACC91A6C8584B686B7DA2B2 /* BSCurrencyTableViewCell.swift */,
+				C51BA9A31469ABA4EA5F61036763BAE4 /* BSEnum.swift */,
+				22419F167896928EC4D0E6801BBD3C9B /* BSExistingCcUIView.swift */,
+				BFCD97663404F5C238FEE2EC496E76B6 /* BSExistingCCViewController.swift */,
+				859809F9B785990B2AD50A301AB9DF43 /* BSImageLibrary.swift */,
+				12A4524AC853B377C403E4872D4834B4 /* BSInputLine.swift */,
+				04018D829D30949EF1B35E8C0176EB46 /* BSLocalizedStrings.swift */,
+				D33276D68CF47E9BBDC4BC08E8A66B96 /* BSPaymentTypeView.swift */,
+				437673D2D3837AFBAD2473585C92B853 /* BSPaymentViewController.swift */,
+				20547572B5974D89BC4E11AC11469EF5 /* BSPaypalHandler.swift */,
+				5C5A9DE5EC5EEB77F533561941BDC7FA /* BSPayPalPayment.swift */,
+				68904467E38307BCEB83CC4692EEB939 /* BSPKContactExtention.swift */,
+				E308460B9CBD14FC2B573C05D909163A /* BSPurchaseDataModel.swift */,
+				3F975106D24DED4A7026CDD2FFD8B8A5 /* BSSdkConfiguration.swift */,
+				3904A227FFE8973DE7368F1C5F7B85D9 /* BSShippingViewController.swift */,
+				C145CBDE7DE285E8AE0636A871C8EDC2 /* BSStartViewController.swift */,
+				0F2824049EB590C80A959F982E50C6D7 /* BSStatesViewController.swift */,
+				6E0E8E77E8DEE496E3D079E82618EC34 /* BSStateTableViewCell.swift */,
+				E08991462DBBF133299C070C2B73C9FF /* BSStringUtils.swift */,
+				92B1E6AB26C97BD9DBFD022973E6C87D /* BSSubtotalUIView.swift */,
+				BD23F9998CE86E11EF60746DB93DEDFF /* BSToken.swift */,
+				2C581FB927EDCA8271A7E9CC5A0F82BA /* BSTokenizeRequest.swift */,
+				DE61D3B66724CA455CD6B41740ECE44C /* BSValidator.swift */,
+				BDC0A326256FF1AAD3EE93656CDCD1B7 /* BSViewsManager.swift */,
+				35D9E91734A4F168B236CE27E8D08309 /* BSWebViewController.swift */,
+				1D34579EFA207C37C5D01E67F9CB41CF /* Kount-Bridging-Header.h */,
+				B78383CA0E84C2D3C080BC52AF8846F1 /* DataCollector */,
+				36F5F43E6EB4F1341DD0607D6118030F /* Frameworks */,
+				DC8D9B1C666D3FB6DEFCA075EACE1986 /* Resources */,
+				D2CC69DAAD5C4013A240E06B64EC5FB3 /* Support Files */,
+			);
+			name = BluesnapSDK;
+			path = BluesnapSDK;
+			sourceTree = "<group>";
+		};
+		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1C58FCF4A7239564D34F5E09B8841 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C7453A51759768B7F08C67CE877AD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464AD3521865F963BC40A12CE908AF42 /* libKountDataCollector.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B78383CA0E84C2D3C080BC52AF8846F1 /* DataCollector */ = {
+			isa = PBXGroup;
+			children = (
+				BB74DF2185881FFF04020841F462067D /* KDataCollector.h */,
+				9C7453A51759768B7F08C67CE877AD9A /* Frameworks */,
+			);
+			name = DataCollector;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
+				3713D88C783D079EA748BDEBB2C96567 /* Pods */,
+				E3361D3A9DD0A0150EDF054122C9B5B5 /* Products */,
+				21B145139E1BE68B5E5DB33D576C5AF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2CC69DAAD5C4013A240E06B64EC5FB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				337851A10055304CEDB50872FE430C7C /* BluesnapSDK.modulemap */,
+				BEA93B30A4735C6A07440821F722A691 /* BluesnapSDK-dummy.m */,
+				339836308EF76D83D52461A0A5F647F8 /* BluesnapSDK-Info.plist */,
+				9D3BF53EB806CA6F098AF667DCCAA6D2 /* BluesnapSDK-prefix.pch */,
+				0921CA04BA2DBE5C177C9C7C5D6D6ACD /* BluesnapSDK-umbrella.h */,
+				C36B40629CCE40460C880C86D1C680B1 /* BluesnapSDK.debug.xcconfig */,
+				59AC95CED38FA1D108A49A9D3BC04A65 /* BluesnapSDK.release.xcconfig */,
+				4D32029AE6345658F79B71B1D91EF846 /* ResourceBundle-BluesnapUI-BluesnapSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BluesnapSDK";
+			sourceTree = "<group>";
+		};
+		DC8D9B1C666D3FB6DEFCA075EACE1986 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69AB6B70D72F88A2C9DC600348F38B6D /* BlueSnap.storyboard */,
+				489C374E7095F5A27E49C57FC0248170 /* BSLocalizable.strings */,
+				212C5CFB74131CE00E16B443190B1ABE /* Localizable.strings */,
+				88BB0305335BFE6BE6C662017081264D /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E3361D3A9DD0A0150EDF054122C9B5B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12FC1BC38CD71D72E424E9D9B50DE562 /* BluesnapSDK */,
+				F7E8779431C4EF36579F06E5DF56E715 /* BluesnapSDK-BluesnapUI */,
+				F21523271E49EC6E01146E52B9335EE2 /* Pods-BluesnapLukaSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB1C58FCF4A7239564D34F5E09B8841 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F112DB81E0B0DD3F4F47942C8543ABC /* AddressBook.framework */,
+				5D23D288101C1B790BB877B5E575AC5B /* Contacts.framework */,
+				CDC8C64F87DBD6B32B523D7E6134B54B /* Foundation.framework */,
+				1C3E82BE5E32670B47B39D9C5382B672 /* PassKit.framework */,
+				3514B8A09253E7AB8F474174A59FD140 /* Security.framework */,
+				AE6E6C5DD1A85839A206BEA271C342A9 /* UIKit.framework */,
+				5B884D23645EFCBCFD6611FF026CADCB /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FE2B14048D06714E60A274EE8D84DCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92EC83E20F6956FAF5700A0FCD57171 /* Pods-BluesnapLukaSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF4220959C64DB4EBCFC930F98E3AA6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B917D5D825969ABCFF75FC29016B18C9 /* BluesnapSDK.h in Headers */,
+				962A34AB6A2D1C4D94F03B62D26161F2 /* BluesnapSDK-umbrella.h in Headers */,
+				8885423A661D53DEC5A594285AA6C2B2 /* KDataCollector.h in Headers */,
+				74CCE4F188DBE64351CE726113B00A71 /* Kount-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F777062A1140A6E1570D564F40E7649 /* BluesnapSDK-BluesnapUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F915D0B8694C0D5983A4A80681E6EB /* Build configuration list for PBXNativeTarget "BluesnapSDK-BluesnapUI" */;
+			buildPhases = (
+				31C114B8376AE7C399AD882211DCC983 /* Sources */,
+				D5E5D70B76CDA717B0C67FE8049418B9 /* Frameworks */,
+				80B19BFF4A3927587890A7A7EAFBE075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BluesnapSDK-BluesnapUI";
+			productName = BluesnapUI;
+			productReference = F7E8779431C4EF36579F06E5DF56E715 /* BluesnapSDK-BluesnapUI */;
+			productType = "com.apple.product-type.bundle";
+		};
+		AF7B53B36FFB815FF881555A2EDCD614 /* BluesnapSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DC86AB0D0812C62323A4C1FB7BA076 /* Build configuration list for PBXNativeTarget "BluesnapSDK" */;
+			buildPhases = (
+				BF4220959C64DB4EBCFC930F98E3AA6D /* Headers */,
+				C5073AE772C802C8088A8BBC563A48E5 /* Sources */,
+				5C8DFC71D54026AE2142418A2B4DA2C3 /* Frameworks */,
+				C8123630D05F081395E39EA1DBBFBEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7772C661AE06B59802AE813C186545CF /* PBXTargetDependency */,
+			);
+			name = BluesnapSDK;
+			productName = BluesnapSDK;
+			productReference = 12FC1BC38CD71D72E424E9D9B50DE562 /* BluesnapSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1B5D6ACF705DA06B777D748FB44754A /* Pods-BluesnapLukaSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D70937E6AEAB74A688E004C191AFEC8 /* Build configuration list for PBXNativeTarget "Pods-BluesnapLukaSDK" */;
+			buildPhases = (
+				6FE2B14048D06714E60A274EE8D84DCB /* Headers */,
+				40B51675C50F7ED8A1DA8F9D82DFF2D6 /* Sources */,
+				8D7E98F2CA552F46494D924D0376AEB0 /* Frameworks */,
+				C95C283FEFB65E555894C7DF61EEA18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4BF0D54E291153BD4BA02EFE1E766B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-BluesnapLukaSDK";
+			productName = Pods_BluesnapLukaSDK;
+			productReference = F21523271E49EC6E01146E52B9335EE2 /* Pods-BluesnapLukaSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				bg,
+				cs,
+				"da-DK",
+				de,
+				en,
+				es,
+				fi,
+				fr,
+				hu,
+				it,
+				ja,
+				ko,
+				lt,
+				nb,
+				nl,
+				pl,
+				"pt-PT",
+				ru,
+				sk,
+				sq,
+				sr,
+				sv,
+				tr,
+				"zh-Hans",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E3361D3A9DD0A0150EDF054122C9B5B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF7B53B36FFB815FF881555A2EDCD614 /* BluesnapSDK */,
+				5F777062A1140A6E1570D564F40E7649 /* BluesnapSDK-BluesnapUI */,
+				B1B5D6ACF705DA06B777D748FB44754A /* Pods-BluesnapLukaSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B19BFF4A3927587890A7A7EAFBE075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2157ABE5E0B36C49E1C2C47A63514B0B /* BlueSnap.storyboard in Resources */,
+				06E15FD0D48C5C1A59FEF8744614D0AA /* BSLocalizable.strings in Resources */,
+				513E6D85D2E87DBDD2619217C409469A /* Localizable.strings in Resources */,
+				B2FEDB6A4F493E308E4C3AD6E0E609B3 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8123630D05F081395E39EA1DBBFBEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27963EB04C6ED6EEBFA358BE6ECA2A18 /* BluesnapSDK-BluesnapUI in Resources */,
+				FB5070B15DC35332E0AACFCD45FE89B6 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95C283FEFB65E555894C7DF61EEA18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31C114B8376AE7C399AD882211DCC983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B51675C50F7ED8A1DA8F9D82DFF2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A940A2C7477CC6D36A5812FB539FD0FA /* Pods-BluesnapLukaSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5073AE772C802C8088A8BBC563A48E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B574D22C302EB5A87BDC5544543C4F5 /* BlueSnapSDK.swift in Sources */,
+				D920B25A21D7CE1A59F6B56FB64AB9D6 /* BluesnapSDK-dummy.m in Sources */,
+				9E6712C4354FC9207E8452BA9E89983C /* BS3DSAuthRequest.swift in Sources */,
+				5DFBC09882E5CFFBD4EBF9436FA2CFB1 /* BS3DSAuthResponse.swift in Sources */,
+				0EF1C2AE1E81BDEE7DE2796EF4143F49 /* BS3DSProcessResultRequest.swift in Sources */,
+				C7E5B28778FD6A93EF9382F3AC444F2A /* BS3DSProcessResultResponse.swift in Sources */,
+				8892BF0B771BD1291C4B824E2C6305C3 /* BSAddress.swift in Sources */,
+				AA6128F7A2363FF6CF96D35B2E1B7039 /* BSApiCaller.swift in Sources */,
+				CAE4AA65E44B890680A00D1154E8905B /* BSApiManager.swift in Sources */,
+				861D27578E012FBCAE1160FB1DB1E7E2 /* BSApplepayOperation.swift in Sources */,
+				2EC420896D8FB26C66F279E01BB50F46 /* BSApplepayPayment.swift in Sources */,
+				14D492958D06BCB18939C713461C411C /* BSApplePayPaymentTypeView.swift in Sources */,
+				61FC74C8B59457C93C4C8D3E44FCC27F /* BSApplepayViewController.swift in Sources */,
+				53761FE24F83E49BD09159B38B2DF161 /* BSBaseBoxWithShadowView.swift in Sources */,
+				CF5717FAF90CE22206BF5C2F56FF3A76 /* BSBaseListController.swift in Sources */,
+				B8A311D6098D28D8BF7121596460ECDA /* BSBaseTextInput.swift in Sources */,
+				FAF92EFA756CCC33D113EDB5B83BCBBF /* BSCardinalManager.swift in Sources */,
+				E53B0BBCC57FBF857FBE4EE4297DE876 /* BSCardinalToken.swift in Sources */,
+				B985133A0039555F2B7DC89D8860AA5E /* BSCcInputLine.swift in Sources */,
+				4E6DA4BFEC54DCF62457F020EC4D11BA /* BSCcPayment.swift in Sources */,
+				96E3FC06254357345B61445323E3CDE5 /* BSColorCompat.swift in Sources */,
+				B7DC71FC8C83FD4014CD05DFE5767506 /* BSCountryManager.swift in Sources */,
+				A58DF526F41EB8E99B8E90F44947D2B5 /* BSCountryTableViewCell.swift in Sources */,
+				E85C7E93B3CF92418416BA9DA3399C70 /* BSCountryViewController.swift in Sources */,
+				E6EE6716A3BAD7D94E71606696E7FC7F /* BSCreatePaymentViewController.swift in Sources */,
+				1E956DBC3445DF476FEFD3C3F839B004 /* BSCurrenciesViewController.swift in Sources */,
+				CA16F12BF2DE1FDE4BDC83055DED01F1 /* BSCurrencyModel.swift in Sources */,
+				6F4F0D5750A3DA5323F031DD0D00EC3C /* BSCurrencyTableViewCell.swift in Sources */,
+				A6441EFB6044B6D342BDC13FE6E568AC /* BSEnum.swift in Sources */,
+				7DD07A85F37BBDD6A1049BF62F3740AF /* BSExistingCcUIView.swift in Sources */,
+				42AF0EF2488D6F4163307169DDE42DDD /* BSExistingCCViewController.swift in Sources */,
+				2B2C6F1F25536E29485DB972AAD44227 /* BSImageLibrary.swift in Sources */,
+				39F9F89EB860A947D9EA8E7B27DB7C32 /* BSInputLine.swift in Sources */,
+				425CEF128267B9B57B1A29A36190DFC0 /* BSLocalizedStrings.swift in Sources */,
+				EB4A6DF64B07DF65718ACDF66564DA24 /* BSPaymentTypeView.swift in Sources */,
+				A8CCFE64420714CCCF1B8F05D089B7EB /* BSPaymentViewController.swift in Sources */,
+				B84736298624B3F0EEEC9FDE64CD9BE7 /* BSPaypalHandler.swift in Sources */,
+				E760FD7D26DD0801B946B3DC4EB4C84F /* BSPayPalPayment.swift in Sources */,
+				12E770EFA6C6FCC47AC64E22CAB1D5CA /* BSPKContactExtention.swift in Sources */,
+				BC3568E32127B16BCDD56302F4096629 /* BSPurchaseDataModel.swift in Sources */,
+				CCB956F864D004C70991D0EEF72ABC8A /* BSSdkConfiguration.swift in Sources */,
+				2028E8C9BA2D1F087E0CFDEC00894C28 /* BSShippingViewController.swift in Sources */,
+				69137EF36AA5A9563C603688AA9563AD /* BSStartViewController.swift in Sources */,
+				62470680D6530154C3008EE827E2E32B /* BSStatesViewController.swift in Sources */,
+				6721113C987FA1AFFC6366547DB0557B /* BSStateTableViewCell.swift in Sources */,
+				2C634A437765C9E969D8BCAAE637B79E /* BSStringUtils.swift in Sources */,
+				133E3342261DAFC75F5A94FB5DFF64DD /* BSSubtotalUIView.swift in Sources */,
+				2A6ED378FCB888CA886ABA536E1B02FD /* BSToken.swift in Sources */,
+				866F667D6BB763150480587BD16AB743 /* BSTokenizeRequest.swift in Sources */,
+				890C8718BC4D36FE9FA8E71EAD036673 /* BSValidator.swift in Sources */,
+				21FD0B76DA657493170525B50345970C /* BSViewsManager.swift in Sources */,
+				56F41435E0EF02669D87404586BCBF83 /* BSWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7772C661AE06B59802AE813C186545CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BluesnapSDK-BluesnapUI";
+			target = 5F777062A1140A6E1570D564F40E7649 /* BluesnapSDK-BluesnapUI */;
+			targetProxy = DC8276AD9CC45CB75C0A6E3B9CBB9BED /* PBXContainerItemProxy */;
+		};
+		B4BF0D54E291153BD4BA02EFE1E766B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BluesnapSDK;
+			target = AF7B53B36FFB815FF881555A2EDCD614 /* BluesnapSDK */;
+			targetProxy = 434F09E8C07360881E2B838E47A54261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212C5CFB74131CE00E16B443190B1ABE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06C8D04BC3D9031B9FD727D31E68747 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = BluesnapSDK;
+			sourceTree = "<group>";
+		};
+		489C374E7095F5A27E49C57FC0248170 /* BSLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				213943017DD835670AC41746034ED1E0 /* BSLocalizable.strings */,
+				D0F5F60E579CAFA29671F6686C10908B /* BSLocalizable.strings */,
+				100A4AF967E87591824D02BDC5B385BE /* BSLocalizable.strings */,
+				F4AF3C6CE4AAA339D53C2FFEA7502AD9 /* BSLocalizable.strings */,
+				7ADE245541197C092592F94C40025C3D /* BSLocalizable.strings */,
+				3EE2076D4302CF773A4A3ACE5E6CA439 /* BSLocalizable.strings */,
+				4869F3E57F51C0BA81938D7BF6A3FD72 /* BSLocalizable.strings */,
+				736FEB466BDC9D9B34276680B8822A31 /* BSLocalizable.strings */,
+				6ECBD531F29FFBB985AC38662A485B20 /* BSLocalizable.strings */,
+				2498AAE258240068463762F1708FF208 /* BSLocalizable.strings */,
+				D0DC57F36955A1FD2AF41A15E64F7B91 /* BSLocalizable.strings */,
+				20081C87FCFC12F5D671B94173DB9E6C /* BSLocalizable.strings */,
+				182EAB5857C6DA5E209A0F235A78EF24 /* BSLocalizable.strings */,
+				AAA398C73AC0225F08824B7D9D90437F /* BSLocalizable.strings */,
+				B6B2D35EC02F5CF1C3FC9D21A5F4D34D /* BSLocalizable.strings */,
+				9EC049B93571272BD285C5381B1C5CDF /* BSLocalizable.strings */,
+				C8C648163E8E6D4079618C9238A99B86 /* BSLocalizable.strings */,
+				24E3FC4DA70CCCBE23204DB9002EBDE4 /* BSLocalizable.strings */,
+				6438667B38B6AD67EBFFFA0DF96211F0 /* BSLocalizable.strings */,
+				7F328F7EECDF40F74D4D5DDAFF2DB4D9 /* BSLocalizable.strings */,
+				9BBA06A53ECDB7C1DD93110FAE082EF5 /* BSLocalizable.strings */,
+				ACFFE5488F4114B98CACB993E5A89C5E /* BSLocalizable.strings */,
+				0D0495CE0A7EB4E4282F773D0F54BC2C /* BSLocalizable.strings */,
+				F8EF6C7BC51904E9403C4EAC891CE2A5 /* BSLocalizable.strings */,
+				616A9FAFA83DBEF6F4BAC2A967C14F7A /* BSLocalizable.strings */,
+			);
+			name = BSLocalizable.strings;
+			path = BluesnapSDK;
+			sourceTree = "<group>";
+		};
+		69AB6B70D72F88A2C9DC600348F38B6D /* BlueSnap.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA9AF4959260724BA6DB2074B5544A3 /* BlueSnap.storyboard */,
+				7C4F6427AC03705BE0070E28D151C77E /* BlueSnap.strings */,
+			);
+			name = BlueSnap.storyboard;
+			path = BluesnapSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BFCB4F53E1D208EA5443EEF5FCC4815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36B40629CCE40460C880C86D1C680B1 /* BluesnapSDK.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BluesnapSDK";
+				IBSC_MODULE = BluesnapSDK;
+				INFOPLIST_FILE = "Target Support Files/BluesnapSDK/ResourceBundle-BluesnapUI-BluesnapSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BluesnapUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B80CAE3256FE76A7383E75FC32F06EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59AC95CED38FA1D108A49A9D3BC04A65 /* BluesnapSDK.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BluesnapSDK";
+				IBSC_MODULE = BluesnapSDK;
+				INFOPLIST_FILE = "Target Support Files/BluesnapSDK/ResourceBundle-BluesnapUI-BluesnapSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = BluesnapUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ABA82366D74106E5614A2D020A75BE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F207A740D5355C2A17CEE1839E04A370 /* Pods-BluesnapLukaSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BluesnapLukaSDK/Pods-BluesnapLukaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluesnapLukaSDK/Pods-BluesnapLukaSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C970A3B5AE93D42CAAFD210858C827AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36B40629CCE40460C880C86D1C680B1 /* BluesnapSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BluesnapSDK/BluesnapSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BluesnapSDK/BluesnapSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BluesnapSDK/BluesnapSDK.modulemap";
+				PRODUCT_MODULE_NAME = BluesnapSDK;
+				PRODUCT_NAME = BluesnapSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9855235FBFFB70E497BD4F1EA62B418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AEC1B715A53680025703ECBCB4A9B6 /* Pods-BluesnapLukaSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BluesnapLukaSDK/Pods-BluesnapLukaSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BluesnapLukaSDK/Pods-BluesnapLukaSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC852182A96019FAF9A5A448E66BC706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59AC95CED38FA1D108A49A9D3BC04A65 /* BluesnapSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BluesnapSDK/BluesnapSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BluesnapSDK/BluesnapSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BluesnapSDK/BluesnapSDK.modulemap";
+				PRODUCT_MODULE_NAME = BluesnapSDK;
+				PRODUCT_NAME = BluesnapSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D70937E6AEAB74A688E004C191AFEC8 /* Build configuration list for PBXNativeTarget "Pods-BluesnapLukaSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABA82366D74106E5614A2D020A75BE93 /* Debug */,
+				F9855235FBFFB70E497BD4F1EA62B418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F915D0B8694C0D5983A4A80681E6EB /* Build configuration list for PBXNativeTarget "BluesnapSDK-BluesnapUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFCB4F53E1D208EA5443EEF5FCC4815 /* Debug */,
+				7B80CAE3256FE76A7383E75FC32F06EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DC86AB0D0812C62323A4C1FB7BA076 /* Build configuration list for PBXNativeTarget "BluesnapSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C970A3B5AE93D42CAAFD210858C827AE /* Debug */,
+				FC852182A96019FAF9A5A448E66BC706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

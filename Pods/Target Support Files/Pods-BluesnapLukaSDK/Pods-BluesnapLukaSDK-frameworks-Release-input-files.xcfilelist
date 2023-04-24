@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-BluesnapLukaSDK/Pods-BluesnapLukaSDK-frameworks.sh
+${PODS_ROOT}/BluesnapSDK/BluesnapSDK/CardinalMobile.framework
+${BUILT_PRODUCTS_DIR}/BluesnapSDK/BluesnapSDK.framework
